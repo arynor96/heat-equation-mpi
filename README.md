@@ -4,10 +4,9 @@ When comparing my MPI implementation to the sequential Heat Equation in 2D, my M
 
 #### Communication between processes
 
-In P0 the process has to send the last “real” row to the P1 process. At the same time, P0 has to receive from P1, P1’s first “real row. P0’s first “real” row is not sent above, since there is no process above P0, only below. That’s why all the sends of the first “real” row happen only if the rank is higher than 0, and they have as destination the process below (rank + 1).
+In P0 the process has to send the last “real” row to the P1 process. At the same time, P0 has to receive from P1, P1’s first “real" row. P0’s first “real” row is not sent above, since there is no process above P0, only below. That’s why all the sends of the first “real” row happen only if the rank is higher than 0, and they have as destination the process below (rank + 1).
 
 In the very last process (Pn-1), the last “real” row can’t be sent anywhere, since there are no processes below. That’s why the last “real” row is sent only if the rank is smaller than size-1.
-
 
 #### Performance
 
