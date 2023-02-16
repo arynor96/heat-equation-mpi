@@ -1,0 +1,57 @@
+rank 2, size is 16 
+rank 3, size is 16 
+rank 6, size is 16 
+rank 7, size is 16 
+rank 9, size is 16 
+rank 10, size is 16 
+rank 12, size is 16 
+rank 14, size is 16 
+rank 15, size is 16 
+rank 1, size is 16 
+rank 4, size is 16 
+rank 8, size is 16 
+rank 13, size is 16 
+rank 5, size is 16 
+rank 0, size is 16 
+rank 11, size is 16 
+Computed (MPI) in 1000 iterations and 8.40779 seconds.
+Computed (sequential) in 1000 iterations and 46.278 seconds.
+Verification: OK
+rank 7, size is 16 
+rank 3, size is 16 
+rank 4, size is 16 
+rank 6, size is 16 
+rank 1, size is 16 
+rank 2, size is 16 
+rank 11, size is 16 
+rank 12, size is 16 
+rank 9, size is 16 
+rank 10, size is 16 
+rank 15, size is 16 
+rank 13, size is 16 
+rank 5, size is 16 
+rank 8, size is 16 
+rank 14, size is 16 
+rank 0, size is 16 
+Computed (MPI) in 2000 iterations and 19.705 seconds.
+Computed (sequential) in 2000 iterations and 100.158 seconds.
+Verification: OK
+rank 1, size is 16 
+rank 3, size is 16 
+rank 5, size is 16 
+rank 7, size is 16 
+rank 8, size is 16 
+rank 9, size is 16 
+rank 10, size is 16 
+rank 11, size is 16 
+rank 6, size is 16 
+rank 12, size is 16 
+rank 14, size is 16 
+rank 13, size is 16 
+rank 15, size is 16 
+rank 4, size is 16 
+rank 0, size is 16 
+rank 2, size is 16 
+Computed (MPI) in 1000 iterations and 1.20704 seconds.
+Computed (sequential) in 1000 iterations and 5.63691 seconds.
+Verification: OK

@@ -1,0 +1,105 @@
+rank 9, size is 32 
+rank 10, size is 32 
+rank 14, size is 32 
+rank 0, size is 32 
+rank 1, size is 32 
+rank 3, size is 32 
+rank 6, size is 32 
+rank 5, size is 32 
+rank 8, size is 32 
+rank 11, size is 32 
+rank 12, size is 32 
+rank 4, size is 32 
+rank 2, size is 32 
+rank 17, size is 32 
+rank 7, size is 32 
+rank 15, size is 32 
+rank 13, size is 32 
+rank 18, size is 32 
+rank 20, size is 32 
+rank 21, size is 32 
+rank 22, size is 32 
+rank 23, size is 32 
+rank 31, size is 32 
+rank 16, size is 32 
+rank 19, size is 32 
+rank 24, size is 32 
+rank 25, size is 32 
+rank 26, size is 32 
+rank 27, size is 32 
+rank 28, size is 32 
+rank 29, size is 32 
+rank 30, size is 32 
+Computed (MPI) in 1000 iterations and 5.76924 seconds.
+Computed (sequential) in 1000 iterations and 46.3962 seconds.
+Verification: OK
+rank 8, size is 32 
+rank 9, size is 32 
+rank 11, size is 32 
+rank 15, size is 32 
+rank 1, size is 32 
+rank 7, size is 32 
+rank 10, size is 32 
+rank 12, size is 32 
+rank 14, size is 32 
+rank 2, size is 32 
+rank 5, size is 32 
+rank 6, size is 32 
+rank 0, size is 32 
+rank 13, size is 32 
+rank 4, size is 32 
+rank 3, size is 32 
+rank 26, size is 32 
+rank 27, size is 32 
+rank 31, size is 32 
+rank 18, size is 32 
+rank 20, size is 32 
+rank 21, size is 32 
+rank 29, size is 32 
+rank 16, size is 32 
+rank 17, size is 32 
+rank 19, size is 32 
+rank 22, size is 32 
+rank 23, size is 32 
+rank 24, size is 32 
+rank 25, size is 32 
+rank 28, size is 32 
+rank 30, size is 32 
+Computed (MPI) in 2000 iterations and 14.6603 seconds.
+Computed (sequential) in 2000 iterations and 100.48 seconds.
+Verification: OK
+rank 1, size is 32 
+rank 2, size is 32 
+rank 4, size is 32 
+rank 5, size is 32 
+rank 6, size is 32 
+rank 3, size is 32 
+rank 11, size is 32 
+rank 13, size is 32 
+rank 7, size is 32 
+rank 9, size is 32 
+rank 15, size is 32 
+rank 0, size is 32 
+rank 8, size is 32 
+rank 10, size is 32 
+rank 12, size is 32 
+rank 14, size is 32 
+rank 20, size is 32 
+rank 21, size is 32 
+rank 22, size is 32 
+rank 23, size is 32 
+rank 24, size is 32 
+rank 28, size is 32 
+rank 31, size is 32 
+rank 17, size is 32 
+rank 18, size is 32 
+rank 19, size is 32 
+rank 25, size is 32 
+rank 26, size is 32 
+rank 30, size is 32 
+rank 16, size is 32 
+rank 27, size is 32 
+rank 29, size is 32 
+Computed (MPI) in 1000 iterations and 1.26007 seconds.
+Computed (sequential) in 1000 iterations and 5.65418 seconds.
+Verification: OK
