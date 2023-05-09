@@ -12,6 +12,7 @@ In P0 the process has to send the last “real” row to the P1 process. At the 
 
 In the very last process (Pn-1), the last “real” row can’t be sent anywhere, since there are no processes below. That’s why the last “real” row is sent only if the rank is smaller than size-1.
 
+
 #### Performance
 
 The combination of MPI_Send and MPI_Recv has a better speedup than MPI_Sendrecv, but I am not sure why. Most likely, it is related to the fact that when using MPI_Sendrecv send and receive happen simultaneously and that means two blocking operations happen simultaneously. That will also explain why after using 4 nodes, the performance is no longer getting better but worse. The amount of simultaneously blockings affects the performance when the number of processes gets even higher.
